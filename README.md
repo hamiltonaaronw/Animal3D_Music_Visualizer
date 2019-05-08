@@ -14,24 +14,35 @@ Notable features:
 
 Relevant files:
 
-a3_DemoState.h
+source/Animal3D-DemoProject/A3_DEMO/
 
-a3_demo_callbacks.c
+-	a3_DemoState.h
 
-a3_DemoState_initialize.c
-a3_DemoState_loading.c
+-	a3_demo_callbacks.c
 
-a3_DemoState_idle-render.c
+/source/animal3D-DemoProject/A3_DEMO/a3_DemoState/
 
-a3_DemoState_idle-update.c
+-	a3_DemoState_initialize.c
 
-a3_DemoState_unloading.c
+-	a3_DemoState_loading.c
+
+-	a3_DemoState_idle-render.c
+
+-	a3_DemoState_idle-update.c
+
+-	a3_DemoState_unloading.c
+
+/animal3D-DemoProject/_src_win
 
 main_dll.c
 
-passMusicVisualization_vs4x.glsl
+resource/glsl/4x/fs/Final/
 
-drawMusicVisualization_vs4x.glsl
+-	passMusicVisualization_vs4x.glsl
+
+resource/glsl/4x/vs/Final/
+
+-	drawMusicVisualization_vs4x.glsl
 
 Music:
 *** DISCLAIMER: I do not own the rights to any of these songs nor am I
@@ -41,7 +52,7 @@ At the beginning of the project I was hardcoding the paths to the songs
 So I made the name of each song in the folder as short as possible 
 while still being able to distinguish them
 
-In order of appearence in the /music/ directory:
+In order of appearence in the resource/music/ directory:
 
 baby:		Be My Baby - Major and the Monbacks
 
