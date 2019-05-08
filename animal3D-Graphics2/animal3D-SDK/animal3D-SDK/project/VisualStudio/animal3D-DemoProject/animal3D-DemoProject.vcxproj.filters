@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{1d401567-a44f-421e-ac49-7cf60c536f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\platform">
+      <UniqueIdentifier>{d20b6381-b7ec-495f-abae-07539acfb83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\A3_DEMO">
+      <UniqueIdentifier>{dda03ea8-3626-4309-9618-9d7c5653f2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A3_DEMO">
+      <UniqueIdentifier>{858c921c-d67d-4e51-b6c0-0f4d8257d22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO">
+      <UniqueIdentifier>{d061064f-0ee7-45dc-afc1-2fb200b50b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl">
+      <UniqueIdentifier>{57770b2e-d573-407d-9b4a-66b59653d8a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x">
+      <UniqueIdentifier>{baef5553-8143-4e09-b432-4db39f33224e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A3_DEMO\_utilities">
+      <UniqueIdentifier>{3ab11224-8c88-4d34-8321-60c72199923c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\A3_DEMO\_utilities">
+      <UniqueIdentifier>{1a9e718c-12e8-4df2-82c7-bdb88b5bc6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\fs">
+      <UniqueIdentifier>{2ab249bc-d0dd-472e-af17-c51049075770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\gs">
+      <UniqueIdentifier>{04ba89e2-80d3-466f-afa1-fd15050c4656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\vs">
+      <UniqueIdentifier>{3bcbad25-07b6-4330-9e1d-7f0c1ffd124e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\A3_DEMO\a3_DemoState">
+      <UniqueIdentifier>{444e44e6-0d85-4a57-9b28-126490cd3544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\fs\02-shading">
+      <UniqueIdentifier>{24ad0c62-6ac7-4a58-bfd7-769f32b8e782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\vs\02-shading">
+      <UniqueIdentifier>{76a01b96-0604-4c3e-be05-00999c16c4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\fs\03-framebuffer">
+      <UniqueIdentifier>{7287360b-cdd0-458a-ab5d-32ff67159e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\vs\04-shadow">
+      <UniqueIdentifier>{5bbd7b44-bd0c-4ed9-823b-584087425777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\fs\04-shadow">
+      <UniqueIdentifier>{41eab4f6-fe6d-4e8a-86e3-078f064f17f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\fs\05-bloom">
+      <UniqueIdentifier>{f84de84b-5db0-49eb-824f-5191eb6cb840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A3_DEMO\_demo_graphics">
+      <UniqueIdentifier>{b3290ab9-149a-43a7-91fe-3b8ee4b020be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common\A3_DEMO\_demo_graphics">
+      <UniqueIdentifier>{2d54bcab-98ea-48c0-a41c-c431a8e9b333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\vs\06-deferred">
+      <UniqueIdentifier>{902d8135-f08a-4ef5-aa56-34c903cf5926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\fs\06-deferred">
+      <UniqueIdentifier>{609f10e1-54b0-40a2-97dc-4cc96ce3acc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\vs\07-curves">
+      <UniqueIdentifier>{ffb55754-cea6-4cbb-9753-f41b3f80ad97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\gs\07-curves">
+      <UniqueIdentifier>{ab6ae752-7464-4255-8b08-25664da7b920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\fs\Final">
+      <UniqueIdentifier>{dc84ce26-7b2b-4926-bd2d-2a94cad9dc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Songs">
+      <UniqueIdentifier>{70c45617-ffc2-4751-8923-2ab702c6c0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\A3_DEMO\glsl\4x\vs\Final">
+      <UniqueIdentifier>{003e7ba3-8a42-4333-9cb1-8f65dec66e0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_src_win\main_dll.c">
+      <Filter>Source Files\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_demo_callbacks.c">
+      <Filter>Source Files\common\A3_DEMO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\_utilities\a3_DemoSceneObject.c">
+      <Filter>Source Files\common\A3_DEMO\_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_DemoState\a3_DemoState_idle-update.c">
+      <Filter>Source Files\common\A3_DEMO\a3_DemoState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_DemoState\a3_DemoState_idle-render.c">
+      <Filter>Source Files\common\A3_DEMO\a3_DemoState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_DemoState\a3_DemoState_idle-input.c">
+      <Filter>Source Files\common\A3_DEMO\a3_DemoState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_DemoState\a3_DemoState_loading.c">
+      <Filter>Source Files\common\A3_DEMO\a3_DemoState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_DemoState\a3_DemoState_unloading.c">
+      <Filter>Source Files\common\A3_DEMO\a3_DemoState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_DemoState\a3_DemoState_initialize.c">
+      <Filter>Source Files\common\A3_DEMO\a3_DemoState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\_demo_graphics\a3_RenderPipeline.c">
+      <Filter>Source Files\common\A3_DEMO\_demo_graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\animal3D-DemoProject\a3_dylib_config_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\a3_DemoState.h">
+      <Filter>Header Files\A3_DEMO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\_utilities\a3_DemoSceneObject.h">
+      <Filter>Header Files\A3_DEMO\_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\_utilities\a3_DemoShaderProgram.h">
+      <Filter>Header Files\A3_DEMO\_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\animal3D-DemoProject\A3_DEMO\_demo_graphics\a3_RenderPipeline.h">
+      <Filter>Header Files\A3_DEMO\_demo_graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\resource\glsl\4x\fs\drawColorAttrib_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\drawColorUnif_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\passColor_transform_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\passthru_transform_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\passthru_transform_instanced_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\passColor_transform_instanced_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\02-shading\drawNonPhotoMulti_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\02-shading</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\02-shading\drawPhongMulti_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\02-shading</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\02-shading\drawTexture_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\02-shading</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\02-shading\passPhongAttribs_transform_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\02-shading</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\02-shading\passTexcoord_transform_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\02-shading</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\03-framebuffer\drawPhongMulti_mrt_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\03-framebuffer</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\03-framebuffer\drawCustom_mrt_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\03-framebuffer</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\04-shadow\drawPhongMulti_projective_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\04-shadow</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\04-shadow\drawPhongMulti_shadowmap_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\04-shadow</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\04-shadow\drawPhongMulti_shadowmap_projective_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\04-shadow</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\04-shadow\passPhongAttribs_passShadowCoord_transform_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\04-shadow</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\04-shadow\drawCustom_post_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\04-shadow</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\05-bloom\drawBlendComposite_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\05-bloom</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\05-bloom\drawBlurGaussian_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\05-bloom</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\05-bloom\drawBrightPass_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\05-bloom</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\06-deferred\passPhongAttribs_transform_atlas_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\06-deferred</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\06-deferred\drawGBuffers_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\06-deferred</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\06-deferred\drawDeferredLightingComposite_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\06-deferred</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\06-deferred\drawPhong_volume_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\06-deferred</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\06-deferred\drawPhongMulti_deferred_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\06-deferred</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\06-deferred\passBiasClipCoord_transform_instanced_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\06-deferred</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\passthru_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\07-curves\passTangentBasis_transform_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\07-curves</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\07-curves\passInstanceID_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\07-curves</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\gs\07-curves\drawCurveHandles_gs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\gs\07-curves</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\gs\07-curves\drawCurveSegment_gs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\gs\07-curves</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\gs\07-curves\drawTangentBasis_gs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\gs\07-curves</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\gs\07-curves\manipTriangle_gs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\gs\07-curves</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\fs\Final\drawMusicVisualization_fs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\fs\Final</Filter>
+    </None>
+    <None Include="..\..\..\resource\glsl\4x\vs\Final\passMusicVisualization_vs4x.glsl">
+      <Filter>Resource Files\A3_DEMO\glsl\4x\vs\Final</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\..\resource\fmod\mallrats.mp3">
+      <Filter>Resource Files\Songs</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
