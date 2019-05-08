@@ -13,25 +13,34 @@ Notable features:
 	loadSongs() function in a3_DemoState_loading.c)
 
 Relevant files:
+
 a3_DemoState.h
 
 a3_demo_callbacks.c
+
 a3_DemoState_initialize.c
 a3_DemoState_loading.c
+
 a3_DemoState_idle-render.c
+
 a3_DemoState_idle-update.c
+
 a3_DemoState_unloading.c
+
 main_dll.c
 
 passMusicVisualization_vs4x.glsl
+
 drawMusicVisualization_vs4x.glsl
 
 Music:
 *** DISCLAIMER: I do not own the rights to any of these songs nor am I
 	attempting to gain any sort of profit from them ***
+	
 At the beginning of the project I was hardcoding the paths to the songs
 So I made the name of each song in the folder as short as possible 
 while still being able to distinguish them
+
 In order of appearence in the /music/ directory:
 
 baby:		Be My Baby - Major and the Monbacks
