@@ -45,6 +45,7 @@ resource/glsl/4x/vs/Final/
 -	drawMusicVisualization_vs4x.glsl
 
 Music:
+
 *** DISCLAIMER: I do not own the rights to any of these songs nor am I
 	attempting to gain any sort of profit from them ***
 	
